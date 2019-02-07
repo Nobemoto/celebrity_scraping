@@ -92,8 +92,8 @@ for key_person in key_persons:
     print("finished scrayping Twitter")
 
 #medium
-    print("-----------------------")
-    print("sgetting the medium url")
+    print("----------------------")
+    print("getting the medium url")
     driver.get('https://www.google.co.jp/')
     assert 'Google' in driver.title
     input_element = driver.find_element_by_name('q')
